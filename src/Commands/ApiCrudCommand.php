@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ApiCrud\ApiCrud\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ApiCrudCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'api-crud';
 
     public $description = 'My command';
 
