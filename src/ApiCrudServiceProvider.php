@@ -2,9 +2,9 @@
 
 namespace ApiCrud\ApiCrud;
 
+use ApiCrud\ApiCrud\Commands\ApiCrudCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ApiCrud\ApiCrud\Commands\ApiCrudCommand;
 
 class ApiCrudServiceProvider extends PackageServiceProvider
 {

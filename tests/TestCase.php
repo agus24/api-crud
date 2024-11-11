@@ -2,9 +2,9 @@
 
 namespace ApiCrud\ApiCrud\Tests;
 
+use ApiCrud\ApiCrud\ApiCrudServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use ApiCrud\ApiCrud\ApiCrudServiceProvider;
 
 class TestCase extends Orchestra
 {
