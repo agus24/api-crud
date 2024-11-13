@@ -1,4 +1,5 @@
 <?php
+
 namespace ApiCrud\ApiCrud\Libraries;
 
 use Illuminate\Support\Facades\File;
@@ -7,6 +8,7 @@ use Illuminate\Support\Str;
 class StubBuilder
 {
     private array $stubArguments;
+
     private array $imports;
 
     public function __construct(
@@ -47,7 +49,8 @@ class StubBuilder
             $output[] = "use {$import};";
         }
 
-        $this->stubArguments["extraImport"] = implode("\n", $output);
+        $this->stubArguments['extraImport'] = implode("\n", $output);
+
         return $this;
     }
 }
