@@ -1,0 +1,50 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+{{ extraImport }}
+
+class {{ class }} extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     */
+    public function index(DefaultSearchRequest $request, {{ service }} {{ serviceVariable }})
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store({{ storeRequestName }} $request, {{ service }} {{ serviceVariable }})
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     */
+    public function show({{ modelClass }} {{ model }}, {{ service }} {{ serviceVariable }})
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     */
+    public function update({{ updateRequestName }} $request, {{ modelClass }} {{ model }}, {{ service }} {{ serviceVariable }})
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy({{ modelClass }} {{ model }}, {{ service }} {{ serviceVariable }})
+    {
+        //
+    }
+}
